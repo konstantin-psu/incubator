@@ -177,24 +177,3 @@ if __name__ == "__main__":
     print "threads successfully closed"
     GPIO.cleanup()
     sys.exit(0)
-
-#thread2.start()
-#for i in pinList:
-#    try:
-#      GPIO.output(i, GPIO.LOW)
-#      print i
-#      time.sleep(SleepTimeL); 
-#      GPIO.output(i, GPIO.HIGH)
-#
-#      print "Good bye!"
-#
-#    # End program cleanly with keyboard
-#    except KeyboardInterrupt:
-#      print "  Quit"
-#
-#      # Reset GPIO settings
-#      GPIO.cleanup()
-
-
-# find more information on this script at
-# http://youtu.be/oaf_zQcrg7g
